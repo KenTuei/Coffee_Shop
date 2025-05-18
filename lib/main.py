@@ -4,17 +4,17 @@ from coffee import Coffee
 latte = Coffee("Latte")
 espresso = Coffee("Espresso")
 
-alice = Customer("Alice")
+ken = Customer("Ken")
 
-alice.create_order(latte, 1.57)
-alice.create_order(espresso, 3.54)
+ken.create_order(latte, 9.57)
+ken.create_order(espresso, 8.54)
 
 print("Customer Orders:")
-for order in alice.orders():
+for order in ken.orders():
     print(order)
 
-print("\nCoffees Alice ordered:")
-for coffee in alice.coffees():
+print("\nCoffees Ken ordered:")
+for coffee in ken.coffees():
     print(coffee.name)
 
 top_customer = Customer.most_aficionado(latte)
