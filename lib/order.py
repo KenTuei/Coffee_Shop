@@ -42,4 +42,4 @@ class Order:
             raise ValueError("price must be between 1.0 and 10.0")
 
     def __str__(self):
-        return f"Order: {self.coffee.name} for {self.customer.name} at ${self.price:.2f}"
+        return f"Order: {self.coffee.name} for {self.customer.name} at KSH {self.price:.2f}"
