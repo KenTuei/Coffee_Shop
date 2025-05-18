@@ -1,6 +1,6 @@
 # Coffee Shop
 
-This project is a Python-based object-oriented model of a coffee shop. It simulates relationships between `Customer`, `Coffee`, and `Order` entities using OOP principles. The goal is to practice class design, encapsulation, and object interaction.
+This project is a Python-based object-oriented model of a coffee shop. It simulates relationships between `Customer`, `Coffee`, and `Order` entities using OOP principles. The goal is to practice class design, encapsulation, and object interaction (Aggregation, Association & Dependancy).
 
 ### Classes and Relationships
 
