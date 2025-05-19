@@ -4,9 +4,9 @@ from coffee import Coffee
 
 def test_customer_name_validation():
     with pytest.raises(ValueError):
-        Customer("")  # too short
+        Customer("")  
     with pytest.raises(ValueError):
-        Customer("A" * 20)  # too long
+        Customer("A" * 20) 
     c = Customer("Ken")
     assert c.name == "Ken"
 

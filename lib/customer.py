@@ -5,7 +5,7 @@ from order import Order
 class Customer:
     def __init__(self, name):
         self._orders = []
-        self.name = name  # this uses the property setter below
+        self.name = name
 
     @property
     def name(self):
